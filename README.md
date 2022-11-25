@@ -35,3 +35,4 @@ In Selenium Grid
 7. To run in docker container
    - mvn clean test -Dbrowser=chrome -Druntype=remote
 
+![execution_result_extent_report](https://user-images.githubusercontent.com/31482729/204041666-f2e0b9f9-298c-4f2d-9dcc-51024f83fdf8.png)
