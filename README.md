@@ -13,7 +13,7 @@
 - Google Chrome latest version (browser to run your tests)
 
 ## Selnium Grid
- - hub
+ - selenium-ub
  - node-chrome
  - node-firefox
  - node-edge
@@ -25,13 +25,13 @@ In Selenium Grid
 
 
 ## How To Run the project
-1. extract the project either open it in IDE or open powershell
-2. navigate to {your_location}\AmazonWebsiteAutomation\src\test\resources\docker
-J. run docker-compose up
-4. wait till the services in the compose file are up
-5. navigate to {your_location}\AmazonWebsiteAutomation
+1. Extract the project either open it in IDE or open powershell
+2. Navigate to {your_location}\AmazonWebsiteAutomation\src\test\resources\docker
+J. Run docker-compose up
+4. Wait till the services in the compose file are up
+5. Navigate to {your_location}\AmazonWebsiteAutomation
 6. To run the automation suite locally invoke 
   - mvn clean test -Dbrowser=chrome -Druntype=local
-  To run in docker container
+7. To run in docker container
  - mvn clean test -Dbrowser=chrome -Druntype=remote
 
