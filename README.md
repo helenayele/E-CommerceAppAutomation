@@ -31,7 +31,7 @@ J. run docker-compose up
 4. wait till the services in the compose file are up
 5. navigate to {your_location}\AmazonWebsiteAutomation
 6. To run the automation suite locally invoke 
-  mvn clean test -Dbrowser=chrome -Druntype=local
+  - mvn clean test -Dbrowser=chrome -Druntype=local
   To run in docker container
-  mvn clean test -Dbrowser=chrome -Druntype=remote
+ - mvn clean test -Dbrowser=chrome -Druntype=remote
 
