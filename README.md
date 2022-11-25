@@ -25,13 +25,13 @@ In Selenium Grid
 
 
 ## How To Run the project
-1. Extract the project either open it in IDE or open powershell
+1. Extract the project and either open it in IDE or open in powershell
 2. Navigate to {your_location}\AmazonWebsiteAutomation\src\test\resources\docker
-J. Run docker-compose up
+3. Run docker-compose up
 4. Wait till the services in the compose file are up
 5. Navigate to {your_location}\AmazonWebsiteAutomation
 6. To run the automation suite locally invoke 
-  - mvn clean test -Dbrowser=chrome -Druntype=local
+   - mvn clean test -Dbrowser=chrome -Druntype=local
 7. To run in docker container
- - mvn clean test -Dbrowser=chrome -Druntype=remote
+   - mvn clean test -Dbrowser=chrome -Druntype=remote
 
